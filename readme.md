@@ -3,6 +3,7 @@
 ### Description
 
 A simple blog on which you can read and post and comment illustrated articles.
+No dependency required. You may need Koala to compile SCSS files into CSS.
 
 ### Features
 
