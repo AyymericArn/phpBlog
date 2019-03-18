@@ -1,0 +1,38 @@
+.write {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    label {
+        padding: 10px 0;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid dimgray;
+    }
+
+    img {
+        width: 100%;
+        margin: 10px 0;
+    }
+    textarea {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid dimgray;
+        font-family: $primary-font;
+    }
+
+    input[type="submit"] {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid dimgray;
+        background: dimgray;
+        color: white;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+}

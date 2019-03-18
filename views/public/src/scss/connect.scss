@@ -1,0 +1,24 @@
+.registration {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid dimgray;
+    }
+    label {
+        padding: 10px 0;
+    }
+
+    input[type="submit"] {
+        margin: 40px 0;
+        width: 100%;
+        cursor: pointer;
+        background-color: dimgray;
+        color: $primary-white;
+    }
+}
